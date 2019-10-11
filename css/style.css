@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.interface {
+    position: absolute;
+    margin-top: 75px;
+    height: auto;
+    width: 100%;
+}
+
+/* NAVBAR */
+
+.cabecalho {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu-fixed {
+    display: block;
+    position: relative;
+    background: #000000;
+    height: 13%;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-fixed img {
+    max-width: 107px;
+    margin-right: 0px;
+    margin-top: 5px;
+    position: relative;
+    align-self: center;
+    margin-left: 5%;
+    margin-bottom: 2px;
+}
+
+.menu-fixed ul {
+    list-style: none;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-transform: uppercase;
+}
+
+.menu-fixed ul li {
+    margin: 0px 25px 0px 0px;
+    display: inline-block;
+}
+
+.menu-fixed ul li:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+.menu-fixed ul li a {
+    color: #043935;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 1px 0px 0px #fafbfb, -1px 0px 0px #fafbfb, 0px 1px 0px #fafbfb, 0px -1px 0px #fafbfb;
+}
+
+/* HOME */
+
+#home {
+    top: 5px;
+    left: 0;
+    right: 0;
+    background-image: url("../img/fundo.png");
+    background-size: 100%, 100%;
+    position: relative;
+    color: green;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+#frase {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: "Times New Roman";
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#sobre {
+    height: 565px;
+}
+
+/* SERVIÇOS */
+
+.containerServicos {
+    border: 2px solid #252525;
+    position: relative;
+    background-color: #252525;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: Arial, Times New Roman;
+    z-index: -1;
+    height: auto;
+}
+
+.imagem {
+    position: relative;
+    float: left;
+}
+
+.texto {
+    position: relative;
+    width: 32%;
+    float: left;
+}
+
+.servico {
+    z-index: 0;
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* footer */
+
+footer {
+    border: 1px solid #37474f;
+    height: auto;
+    text-align: center;
+    background: #37474f;
+    color: #d7dadb;
+    margin-bottom: 0%;
+    font-size: 15px;
+    display: block;
+    font-weight: Bold;
+}
+
+footer h1 {
+    padding-top: 15px;
+    font-family: Verdana;
+}
+
+footer .socialMedia {
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    height: auto;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+footer .socialMedia img {
+    margin-right: 12px;
+    width: 35px;
+    height: 45px;
+}
+
+footer .socialMedia .containerDireita {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+
+footer .socialMedia .containerDireita .facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .socialMedia .containerDireita .whats {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .socialMedia .containerEsquerda {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+
+footer .socialMedia .containerEsquerda .likedin {
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .socialMedia .containerEsquerda .instagram {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-family: 'Arial black';
+    font-size: 19px;
+}
+
+footer .direitos {
+    top: 12px;
+    position: relative;
+    background-color: #37454d;
+    padding: 0 auto;
+    display: block;
+    height: 50px;
+}
