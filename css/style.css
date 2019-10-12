@@ -98,9 +98,48 @@ body {
     display: flex;
 }
 
+
+
 #sobre {
-    height: 565px;
+    height: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
 }
+
+/* ABOUT */
+.containerSobre{
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.containerSobre img{
+    width: 370px;
+    height: 582px;
+
+}
+.containerSobre .descricao{
+	width: auto;
+	height: auto;
+	display: block;
+	margin-left: 25px;
+}
+.containerSobre .descricao strong{
+	font-family: 'Arial Black';
+}
+.containerSobre .containerAdvogado{
+	display: block;
+	float: left;
+}
+.containerSobre .descricao h1{
+	font-family: 'Arial Black';
+	text-align: center;
+}
+
 
 /* SERVIÇOS */
 
@@ -112,7 +151,7 @@ body {
     padding-left: 50px;
     font-family: Arial, Times New Roman;
     z-index: -1;
-    height: auto;
+    height: 650px;
 }
 
 .imagem {
@@ -127,6 +166,7 @@ body {
 }
 
 .servico {
+    margin-top: 15px;
     z-index: 0;
     position: relative;
     color: #ffffff;
@@ -135,6 +175,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 /* footer */
