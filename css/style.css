@@ -169,7 +169,7 @@ body {
     align-items: center;
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
     height: auto;
@@ -219,7 +219,6 @@ footer .socialMedia .container div {
 footer .socialMedia .container .likedin {
     margin-right: 25px;
 }
-
 
 footer .socialMedia .links {
     color: #d7dadb;
