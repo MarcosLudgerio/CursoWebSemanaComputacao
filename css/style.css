@@ -80,9 +80,7 @@ body {
     right: 0;
     background-image: url("../img/fundo.png");
     background-size: 100%, 100%;
-    background-repeat: no-repeat;
     position: relative;
-    color: green;
     height: 650px;
     display: flex;
     align-items: center;
@@ -93,64 +91,56 @@ body {
 #frase {
     color: #ffffff;
     font-size: 80px;
-    font-family: "Times New Roman";
     text-align: center;
-    justify-content: center;
     display: flex;
 }
 
-
+/* ABOUT */
 
 #sobre {
     height: 650px;
-    font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: justify;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
 }
 
-/* ABOUT */
-.containerSobre{
-	width: 75%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.containerSobre {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.containerSobre img{
+
+.containerSobre img {
     width: 370px;
     height: 582px;
-
-}
-.containerSobre .descricao{
-	width: auto;
-	height: auto;
-	display: block;
-	margin-left: 25px;
-}
-.containerSobre .descricao strong{
-	font-family: 'Arial Black';
-}
-.containerSobre .containerAdvogado{
-	display: block;
-	float: left;
-}
-.containerSobre .descricao h1{
-	font-family: 'Arial Black';
-	text-align: center;
 }
 
+.containerSobre .descricao {
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+}
+
+.containerSobre .descricao .corporation {
+    font-family: 'Arial Black';
+    text-align: center;
+}
+
+.containerSobre .containerAdvogado {
+    display: block;
+    float: left;
+}
 
 /* SERVIÇOS */
 
 .containerServicos {
-    border: 2px solid #252525;
     position: relative;
     background-color: #252525;
     padding-right: 50px;
     padding-left: 50px;
-    font-family: Arial, Times New Roman;
     z-index: -1;
     height: 650px;
 }
@@ -182,12 +172,10 @@ body {
 /* footer */
 
 footer {
-    border: 1px solid #37474f;
     height: auto;
     text-align: center;
     background: #37474f;
     color: #d7dadb;
-    margin-bottom: 0%;
     font-size: 15px;
     display: block;
     font-weight: Bold;
@@ -205,7 +193,6 @@ footer .socialMedia {
     justify-content: center;
     padding-top: 15px;
     height: auto;
-    text-transform: capitalize;
     font-size: 20px;
 }
 
@@ -215,57 +202,37 @@ footer .socialMedia img {
     height: 45px;
 }
 
-footer .socialMedia .containerDireita {
+footer .socialMedia .container {
     display: flex;
     flex-direction: column;
     width: 200px;
     justify-content: center;
 }
 
-footer .socialMedia .containerDireita .facebook {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer .socialMedia .containerDireita .whats {
+footer .socialMedia .container div {
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-footer .socialMedia .containerEsquerda {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    justify-content: center;
-}
-
-footer .socialMedia .containerEsquerda .likedin {
+footer .socialMedia .container .likedin {
     margin-right: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-footer .socialMedia .containerEsquerda .instagram {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-footer p {
-    font-family: 'Arial black';
-    font-size: 19px;
+footer .socialMedia .links {
+    color: #d7dadb;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 footer .direitos {
+    font-family: 'Arial black';
+    font-size: 19px;
+    width: 100%;
     top: 12px;
     position: relative;
     background-color: #37454d;
-    padding: 0 auto;
     display: block;
-    height: 50px;
 }
